@@ -1,0 +1,1122 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Meta Tags -->
+  <title>BWS Veranstaltungstechnik | Premium Eventtechnik & Equipment-Vermietung</title>
+  <meta name="description" content="Mieten Sie professionelle Tontechnik, Lichttechnik und Medientechnik für Events jeder Größe. Nutzen Sie unseren intelligenten Event-Kalkulator und Lichtshow-Simulator.">
+  <meta name="keywords" content="Eventtechnik, Veranstaltungstechnik, mieten, Tontechnik, Lichttechnik, Warenkorb, Event-Kalkulator, Klausen, Trier, Lichtshow, Vermietung">
+  <meta name="author" content="BWS Veranstaltungstechnik">
+  
+  <!-- Inter & Outfit Fonts inside CSS, direct link here as backup -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='6' fill='%2300f0ff'/%3E%3Ccircle cx='12' cy='12' r='6' fill='%23000'/%3E%3C/svg%3E">
+  
+  <link rel="stylesheet" href="/src/index.css">
+</head>
+<body>
+
+  <!-- NAVIGATION HEADER -->
+  <header id="header">
+    <div class="container nav-container">
+      <a href="#" class="logo">
+        <img class="logo-img" src="/Bilder/Logo/BWS Logo.jpeg" alt="BWS Logo" onerror="this.style.display='none';">
+        <div class="logo-text">BWS <span>Veranstaltungstechnik</span></div>
+      </a>
+      
+      <ul class="nav-menu">
+        <li><a href="#" class="nav-link active" id="nav-home">Home</a></li>
+        <li><a href="#kalkulator" class="nav-link" id="nav-kalkulator">Konfigurator</a></li>
+        <li><a href="#simulator" class="nav-link" id="nav-simulator">Licht-Simulator</a></li>
+        <li><a href="#dienstleistungen" class="nav-link" id="nav-dienstleistungen">Leistungen</a></li>
+        <li><a href="#katalog" class="nav-link" id="nav-katalog">Mietkatalog</a></li>
+        <li><a href="#kontakt" class="nav-link" id="nav-kontakt">Anfrage</a></li>
+      </ul>
+      
+      <div class="header-actions">
+        <button class="cart-trigger" id="cart-btn" aria-label="Warenkorb öffnen">
+          <svg class="cart-icon-svg" viewBox="0 0 24 24">
+            <path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/>
+          </svg>
+          <div class="cart-badge" id="cart-badge-count">0</div>
+        </button>
+        <a href="#kalkulator" class="btn btn-primary btn-sm">Schnellanfrage</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN WRAPPER -->
+  <main>
+    
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+      <div class="hero-overlay"></div>
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <h1>Licht. Ton.<br><span class="text-gradient-neon">Emotionen.</span><br>Eventtechnik neu definiert.</h1>
+          <p>BWS Veranstaltungstechnik liefert erstklassiges Equipment, zukunftsweisende Lichtinszenierungen und bombastischen Sound für unvergessliche Events. Berechnen Sie Ihre Miete live online.</p>
+          <div class="hero-actions">
+            <a href="#kalkulator" class="btn btn-primary">
+              <span>Event-Kalkulator</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg>
+            </a>
+            <a href="#katalog" class="btn btn-secondary">Mietpark durchsuchen</a>
+          </div>
+        </div>
+        
+        <div class="hero-visual">
+          <!-- A gorgeous glowing SVG stage in the right column -->
+          <svg class="hero-stage-mockup" viewBox="0 0 400 350" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="cyan-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#00f0ff" stop-opacity="0.8"/>
+                <stop offset="100%" stop-color="#8e2de2" stop-opacity="0"/>
+              </linearGradient>
+              <linearGradient id="magenta-glow" x1="100%" y1="0%" x2="0%" y2="100%">
+                <stop offset="0%" stop-color="#ff007f" stop-opacity="0.8"/>
+                <stop offset="100%" stop-color="#4a00e0" stop-opacity="0"/>
+              </linearGradient>
+              <filter id="blur-filter" x="-20%" y="-20%" width="140%" height="140%">
+                <blur stdDeviation="15"/>
+              </filter>
+            </defs>
+            
+            <!-- Stage Back Wall -->
+            <rect x="40" y="240" width="320" height="40" rx="4" fill="#121522" opacity="0.8" stroke="rgba(255,255,255,0.05)" stroke-width="1" />
+            <rect x="20" y="270" width="360" height="20" fill="#0b0d16" />
+            
+            <!-- Trusses -->
+            <line x1="60" y1="40" x2="340" y2="40" stroke="#4b5563" stroke-width="6" stroke-dasharray="2,2"/>
+            <line x1="60" y1="40" x2="60" y2="250" stroke="#374151" stroke-width="4" stroke-dasharray="2,2"/>
+            <line x1="340" y1="40" x2="340" y2="250" stroke="#374151" stroke-width="4" stroke-dasharray="2,2"/>
+            
+            <!-- Lighting Beams -->
+            <polygon points="100,50 40,250 120,250" fill="url(#cyan-glow)" filter="url(#blur-filter)" opacity="0.6"/>
+            <polygon points="300,50 280,250 360,250" fill="url(#magenta-glow)" filter="url(#blur-filter)" opacity="0.6"/>
+            <polygon points="200,50 120,250 280,250" fill="url(#cyan-glow)" filter="url(#blur-filter)" opacity="0.4"/>
+            
+            <!-- Spotlights on Truss -->
+            <rect x="90" y="40" width="16" height="12" rx="3" fill="#222" transform="rotate(15 98 46)"/>
+            <rect x="140" y="40" width="16" height="12" rx="3" fill="#222"/>
+            <rect x="240" y="40" width="16" height="12" rx="3" fill="#222"/>
+            <rect x="290" y="40" width="16" height="12" rx="3" fill="#222" transform="rotate(-15 298 46)"/>
+            
+            <!-- Speakers Stacks -->
+            <!-- Left speaker stack -->
+            <rect x="35" y="170" width="20" height="32" rx="2" fill="#111" stroke="#222"/>
+            <circle cx="45" cy="178" r="4" fill="#333"/>
+            <circle cx="45" cy="190" r="5" fill="#333"/>
+            <rect x="33" y="204" width="24" height="38" rx="2" fill="#0d0d0d" stroke="#222"/>
+            <circle cx="45" cy="214" r="6" fill="#222"/>
+            <circle cx="45" cy="230" r="6" fill="#222"/>
+            
+            <!-- Right speaker stack -->
+            <rect x="345" y="170" width="20" height="32" rx="2" fill="#111" stroke="#222"/>
+            <circle cx="355" cy="178" r="4" fill="#333"/>
+            <circle cx="355" cy="190" r="5" fill="#333"/>
+            <rect x="343" y="204" width="24" height="38" rx="2" fill="#0d0d0d" stroke="#222"/>
+            <circle cx="355" cy="214" r="6" fill="#222"/>
+            <circle cx="355" cy="230" r="6" fill="#222"/>
+            
+            <!-- DJ Table -->
+            <rect x="150" y="220" width="100" height="30" rx="3" fill="#111" stroke="#333"/>
+            <line x1="160" y1="230" x2="240" y2="230" stroke="#00f0ff" stroke-width="2" opacity="0.8"/>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- GLOBAL RENTAL DATE RANGE SELECTOR -->
+    <section class="global-dates-panel">
+      <div class="container">
+        <div class="dates-widget glass-panel">
+          <div class="date-field">
+            <label for="rental-start">Mietbeginn</label>
+            <div class="date-input-wrapper">
+              <input type="date" id="rental-start">
+            </div>
+          </div>
+          
+          <div class="date-field">
+            <label for="rental-end">Mietende</label>
+            <div class="date-input-wrapper">
+              <input type="date" id="rental-end">
+            </div>
+          </div>
+          
+          <div class="duration-summary">
+            <div class="duration-summary-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V10h14v10zm0-12H5V6h14v2z"/>
+              </svg>
+            </div>
+            <div class="duration-summary-text">
+              <div>Berechnete Mietdauer</div>
+              <div id="display-duration">1 Tag <span id="display-factor">(Faktor: 1.0x)</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- UNIQUE FEATURE 2: INTERACTIVE EVENT BUILDER -->
+    <section class="section-padding" id="kalkulator">
+      <div class="container">
+        <div class="section-header">
+          <h2>Intelligenter <span class="text-gradient-cyan">Event-Konfigurator</span></h2>
+          <p>Sie wissen nicht genau, welche Geräte Sie benötigen? Beantworten Sie 3 kurze Fragen und erhalten Sie eine professionelle Technikempfehlung für Ihr Event.</p>
+        </div>
+        
+        <div class="builder-layout glass-panel">
+          <!-- Step Indicators -->
+          <div class="builder-header">
+            <div class="builder-step-indicator active" data-step="1">
+              <div class="step-num">1</div>
+              <div class="step-title">Event-Typ</div>
+            </div>
+            
+            <div class="builder-step-indicator" data-step="2">
+              <div class="step-num">2</div>
+              <div class="step-title">Gästeanzahl</div>
+            </div>
+            
+            <div class="builder-step-indicator" data-step="3">
+              <div class="step-num">3</div>
+              <div class="step-title">Empfehlung</div>
+            </div>
+          </div>
+          
+          <!-- STEP 1: EVENT TYPE PANE -->
+          <div class="builder-step-pane active" id="step-pane-1">
+            <h3 style="margin-bottom: 24px; text-align: center; font-family: var(--font-title);">Welche Art von Veranstaltung planen Sie?</h3>
+            <div class="builder-options-grid">
+              
+              <div class="builder-option-card glass-card" data-event="hochzeit">
+                <svg class="option-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" fill="currentColor" fill-opacity="0.1"/>
+                </svg>
+                <h4>Hochzeit</h4>
+                <p>Romantische Beleuchtung & Sound</p>
+              </div>
+              
+              <div class="builder-option-card glass-card" data-event="corporate">
+                <svg class="option-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M19 21V5a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5m0 0V11m0 10V11m0 0h4" />
+                  <circle cx="9" cy="7" r="1" />
+                  <circle cx="15" cy="7" r="1" />
+                </svg>
+                <h4>Firmen-Event</h4>
+                <p>Galas, Kongresse & Meetings</p>
+              </div>
+              
+              <div class="builder-option-card glass-card" data-event="konzert">
+                <svg class="option-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M9 18V5l12-2v13" />
+                  <circle cx="6" cy="18" r="3" fill="currentColor" fill-opacity="0.1"/>
+                  <circle cx="18" cy="16" r="3" fill="currentColor" fill-opacity="0.1"/>
+                </svg>
+                <h4>Live-Konzert</h4>
+                <p>Festival-Feeling & Band PA</p>
+              </div>
+              
+              <div class="builder-option-card glass-card" data-event="party">
+                <svg class="option-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <rect x="4" y="4" width="16" height="16" rx="2" />
+                  <circle cx="12" cy="12" r="3" />
+                  <circle cx="8" cy="8" r="1" />
+                  <circle cx="16" cy="8" r="1" />
+                </svg>
+                <h4>Party / Rave</h4>
+                <p>Fette Bässe & Club-Beleuchtung</p>
+              </div>
+              
+            </div>
+          </div>
+          
+          <!-- STEP 2: GUEST SIZE PANE -->
+          <div class="builder-step-pane" id="step-pane-2">
+            <h3 style="margin-bottom: 24px; text-align: center; font-family: var(--font-title);">Mit wie vielen Gästen rechnen Sie?</h3>
+            <div class="builder-sizes-grid">
+              
+              <div class="builder-size-card glass-card" data-size="small">
+                <div class="size-bullet"></div>
+                <div class="size-details">
+                  <h4>Kleine Feier</h4>
+                  <p>Bis zu 100 Personen</p>
+                </div>
+              </div>
+              
+              <div class="builder-size-card glass-card" data-size="medium">
+                <div class="size-bullet"></div>
+                <div class="size-details">
+                  <h4>Mittelgroßes Event</h4>
+                  <p>100 bis 300 Personen</p>
+                </div>
+              </div>
+              
+              <div class="builder-size-card glass-card" data-size="large">
+                <div class="size-bullet"></div>
+                <div class="size-details">
+                  <h4>Großveranstaltung</h4>
+                  <p>300 bis 1.000 Personen</p>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+          
+          <!-- STEP 3: RECOMMENDATION DETAIL PANE -->
+          <div class="builder-step-pane" id="step-pane-3">
+            <div class="builder-recommendation">
+              <div class="recommendation-info">
+                <span class="product-category-label" style="position: static; margin-bottom: 12px; display: inline-block;">Unsere Empfehlung</span>
+                <h3 id="recommendation-title">Premium-Paket</h3>
+                <p id="recommendation-desc">Dieses Paket liefert fantastischen Sound und stilvolle Beleuchtung für Ihre Feier.</p>
+                
+                <h5 style="margin-bottom: 10px; font-family: var(--font-title); font-size: 0.9rem; text-transform: uppercase; color: var(--primary-glow);">Enthaltenes Equipment:</h5>
+                <ul class="recommendation-specs" id="recommendation-specs-list">
+                  <li>Astera Pixeltubes</li>
+                  <li>L-Acoustics Sound System</li>
+                </ul>
+              </div>
+              
+              <div class="recommendation-pricing glass-card">
+                <div>
+                  <h4 style="font-family: var(--font-title); font-size: 1.2rem; margin-bottom: 20px; border-bottom: 1px solid rgba(255,255,255,0.06); padding-bottom: 10px;">Preiskalkulation</h4>
+                  <div class="pricing-row">
+                    <span>Mietpreis (1 Tag)</span>
+                    <span id="recom-base-price">0,00 €</span>
+                  </div>
+                  <div class="pricing-row">
+                    <span>Lieferung & Aufbau</span>
+                    <span id="recom-setup-price">0,00 €</span>
+                  </div>
+                </div>
+                <div>
+                  <div class="pricing-row total">
+                    <span>Gesamtpreis</span>
+                    <span id="recom-total-price">0,00 €</span>
+                  </div>
+                  <button class="btn btn-primary" id="btn-add-bundle" style="width: 100%;">Paket in den Warenkorb legen</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Control Buttons -->
+          <div class="builder-footer">
+            <button class="btn btn-secondary" id="btn-builder-prev" style="visibility: hidden;">Zurück</button>
+            <button class="btn btn-primary" id="btn-builder-next" disabled>Weiter</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- UNIQUE FEATURE 1: DYNAMIC LIGHTSHOW SIMULATOR -->
+    <section class="section-padding" style="background: rgba(4, 5, 8, 0.4);" id="simulator">
+      <div class="container">
+        <div class="section-header">
+          <h2>Interaktiver <span class="text-gradient-magenta">Lichtshow-Simulator</span></h2>
+          <p>Erleben Sie das Zusammenspiel von Licht, Trussing und Nebel auf unserer virtuellen Bühne. Wählen Sie eine Lichtshow und beobachten Sie die Beams.</p>
+        </div>
+        
+        <div class="simulator-layout">
+          <!-- The Visual Stage representation -->
+          <div class="stage-wrapper" id="stage-viewport" data-theme="off">
+            <div class="truss-overlay"></div>
+            
+            <!-- Lights attached to Truss -->
+            <div class="stage-lights">
+              
+              <div class="stage-light">
+                <div class="light-lens"></div>
+                <div class="light-beam"></div>
+              </div>
+              
+              <div class="stage-light">
+                <div class="light-lens"></div>
+                <div class="light-beam"></div>
+              </div>
+              
+              <div class="stage-light">
+                <div class="light-lens"></div>
+                <div class="light-beam"></div>
+              </div>
+              
+              <div class="stage-light">
+                <div class="light-lens"></div>
+                <div class="light-beam"></div>
+              </div>
+              
+              <div class="stage-light">
+                <div class="light-lens"></div>
+                <div class="light-beam"></div>
+              </div>
+              
+              <div class="stage-light">
+                <div class="light-lens"></div>
+                <div class="light-beam"></div>
+              </div>
+              
+            </div>
+            
+            <!-- Lasers -->
+            <div class="stage-lasers">
+              <div class="laser-beam left"></div>
+              <div class="laser-beam right"></div>
+            </div>
+            
+            <!-- Speakers and FOH booth decoration at bottom -->
+            <div class="stage-decor">
+              <div class="decor-speaker">
+                <div class="speaker-cone"></div>
+                <div class="speaker-cone sub"></div>
+              </div>
+              
+              <div class="decor-dj-booth"></div>
+              
+              <div class="decor-speaker">
+                <div class="speaker-cone"></div>
+                <div class="speaker-cone sub"></div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Simulation Controls on Right -->
+          <div class="simulator-panel glass-panel">
+            <h3>Bühnen-Regiepult</h3>
+            <p>Steuern Sie Scheinwerfer, Scanner und Stroboskope live. Testen Sie unsere Presets:</p>
+            
+            <div class="preset-buttons">
+              <button class="preset-btn active" data-preset="off">
+                <span>Show stoppen</span>
+              </button>
+              
+              <button class="preset-btn" data-preset="rock">
+                <span>Concert Rock</span>
+              </button>
+              
+              <button class="preset-btn" data-preset="rave">
+                <span>Techno Rave</span>
+              </button>
+              
+              <button class="preset-btn" data-preset="gala">
+                <span>Gala & Ambient</span>
+              </button>
+            </div>
+            
+            <div style="margin-top: 30px; padding: 14px; border: 1px dashed rgba(255,255,255,0.1); border-radius: 8px; font-size: 0.8rem; color: var(--text-muted);">
+              <strong>Technik-Tipp:</strong> Alle in der Simulation dargestellten Scheinwerfer (z.B. Robe MegaPointe) und PA-Boxen können im Katalog unten direkt gemietet werden.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTERACTIVE RENTAL CATALOG -->
+    <section class="section-padding" id="katalog">
+      <div class="container">
+        <div class="section-header">
+          <h2>Unser <span class="text-gradient-cyan">Mietkatalog</span></h2>
+          <p>Wählen Sie professionelle Komponenten aus unserem verifizierten Mietpool. Fügen Sie die benötigten Mengen dem Warenkorb hinzu.</p>
+        </div>
+        
+        <div class="catalog-controls">
+          <div class="catalog-tabs">
+            <div class="catalog-tab-indicator"></div>
+            <button class="catalog-tab active" data-cat="all">Alle Kategorien</button>
+            <button class="catalog-tab" data-cat="licht">Lichttechnik</button>
+            <button class="catalog-tab" data-cat="ton">Tontechnik</button>
+            <button class="catalog-tab" data-cat="buehne">Bühne & Rigging</button>
+          </div>
+          
+          <div class="catalog-search">
+            <input type="text" id="catalog-search-input" placeholder="Equipment suchen...">
+          </div>
+        </div>
+        
+        <!-- Products Grid Container -->
+        <div class="catalog-grid" id="catalog-grid-items">
+          <!-- Injected dynamically via JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- REFERENZEN SECTION -->
+    <section class="section-padding" style="background: rgba(4, 5, 8, 0.3);" id="referenzen">
+      <div class="container">
+        <div class="section-header">
+          <h2>Unsere <span class="text-gradient-neon">Erfolgreichen Projekte</span></h2>
+          <p>Ein Auszug aus unserer Arbeit vor Ort. Professionelle Begleitung von Großevents, Vereinsfesten und exklusiven Feiern.</p>
+        </div>
+        
+        <div class="referenzen-grid">
+          <!-- Projekt 1: Karneval Klausen -->
+          <div class="referenz-card glass-card">
+            <div class="referenz-image-wrapper">
+              <img src="/Bilder/Events/Karneval/Karneval Klausen.jpg" alt="Karneval Klausen" class="referenz-img" onerror="this.src='https://via.placeholder.com/600x400?text=Karneval+Klausen';">
+              <div class="referenz-badge">Vereinsfest</div>
+            </div>
+            <div class="referenz-body">
+              <h3>Karneval Klausen</h3>
+              <p>Seit Jahren begleiten wir den traditionellen Klausener Karneval mit modernster Lichtshow und glasklarem Sound für über 1000 feiernde Gäste.</p>
+              <div class="referenz-tech-tags">
+                <span>Tontechnik</span>
+                <span>Lichtshow</span>
+                <span>Bühne</span>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Projekt 2: Crimson Fest -->
+          <div class="referenz-card glass-card">
+            <div class="referenz-image-wrapper">
+              <img src="/Bilder/Events/Crimson/Crimson Fest Hauptbild.jpg" alt="Crimson Fest 2025" class="referenz-img" onerror="this.src='https://via.placeholder.com/600x400?text=Crimson+Fest';">
+              <div class="referenz-badge">Festival</div>
+            </div>
+            <div class="referenz-body">
+              <h3>Crimson Fest 2025</h3>
+              <p>Das Crimson Fest setzt auf energiegeladene Lichteffekte, druckvolle Bässe und perfektes Rigging. BWS sorgt für die komplette technische Inszenierung auf der Mainstage.</p>
+              <div class="referenz-tech-tags">
+                <span>Mainstage PA</span>
+                <span>Moving Heads</span>
+                <span>Rigging</span>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Projekt 3: Abiball Wittlich -->
+          <div class="referenz-card glass-card">
+            <div class="referenz-image-wrapper">
+              <img src="/Bilder/Events/Abiball/Abiball Hauptbild.jpg" alt="Abiball Wittlich" class="referenz-img" onerror="this.src='https://via.placeholder.com/600x400?text=Abiball+Wittlich';">
+              <div class="referenz-badge">Gala</div>
+            </div>
+            <div class="referenz-body">
+              <h3>Abiball Wittlich</h3>
+              <p>Ein unvergesslicher Abschluss. Für den Abiball in Wittlich lieferten wir ein stimmungsvolles Ambientelicht, ein erstklassiges Soundsystem für die Tanzfläche und professionelle Mikrofontechnik.</p>
+              <div class="referenz-tech-tags">
+                <span>Ambientelicht</span>
+                <span>Tanzflächen-PA</span>
+                <span>Mikrofonie</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GOOGLE REVIEWS SECTION (Ticker) -->
+    <section class="section-padding" style="background: rgba(4, 5, 8, 0.2);" id="bewertungen">
+      <div class="container">
+        <div class="section-header">
+          <h2>Kundenstimmen & <span class="text-gradient-cyan">Google-Bewertungen</span></h2>
+          <p>Das sagen unsere Kunden über unseren Service und unsere Veranstaltungstechnik in Klausen und Umgebung.</p>
+        </div>
+        <div class="reviews-ticker-wrapper">
+          <div class="reviews-ticker-track">
+            <!-- Review 1 -->
+            <div class="review-card glass-panel">
+              <div class="review-header">
+                <div class="reviewer-info">
+                  <div class="reviewer-avatar">B</div>
+                  <div>
+                    <h4>Bunker Design</h4>
+                    <div class="review-date">Vor 6 Monaten</div>
+                  </div>
+                </div>
+                <div class="review-rating">★★★★★</div>
+              </div>
+              <p class="review-text">"Absolut zu empfehlen! Top Technik zu sehr guten Konditionen."</p>
+              <div class="google-badge">Google Rezension</div>
+            </div>
+            <!-- Review 2 -->
+            <div class="review-card glass-panel">
+              <div class="review-header">
+                <div class="reviewer-info">
+                  <div class="reviewer-avatar">M</div>
+                  <div>
+                    <h4>Maurice Voigt</h4>
+                    <div class="review-date">Vor 1 Jahr</div>
+                  </div>
+                </div>
+                <div class="review-rating">★★★★★</div>
+              </div>
+              <p class="review-text">"Sehr kompetentes und nettes Personal und mega gute Preise! Immer wieder gerne."</p>
+              <div class="google-badge">Google Rezension</div>
+            </div>
+            <!-- Review 3 -->
+            <div class="review-card glass-panel">
+              <div class="review-header">
+                <div class="reviewer-info">
+                  <div class="reviewer-avatar">B</div>
+                  <div>
+                    <h4>Benedikt</h4>
+                    <div class="review-date">Vor 8 Monaten</div>
+                  </div>
+                </div>
+                <div class="review-rating">★★★★★</div>
+              </div>
+              <p class="review-text">"Ich kann wirklich nur sagen dass ich Suuuper zufrieden bin. Kann man nur weiter empfehlen!"</p>
+              <div class="google-badge">Google Rezension</div>
+            </div>
+            <!-- Review 4 -->
+            <div class="review-card glass-panel">
+              <div class="review-header">
+                <div class="reviewer-info">
+                  <div class="reviewer-avatar">L</div>
+                  <div>
+                    <h4>Lorraine Valerius</h4>
+                    <div class="review-date">Vor 4 Monaten</div>
+                  </div>
+                </div>
+                <div class="review-rating">★★★★★</div>
+              </div>
+              <p class="review-text">"Definitiv weiterzuempfehlen! Super netter, unkomplizierter Kontakt und einwandfreies Equipment."</p>
+              <div class="google-badge">Google Rezension</div>
+            </div>
+            <!-- Review 5 -->
+            <div class="review-card glass-panel">
+              <div class="review-header">
+                <div class="reviewer-info">
+                  <div class="reviewer-avatar">M</div>
+                  <div>
+                    <h4>Mia Freudenreich</h4>
+                    <div class="review-date">Vor 11 Monaten</div>
+                  </div>
+                </div>
+                <div class="review-rating">★★★★★</div>
+              </div>
+              <p class="review-text">"Ein zuverlässiger und unkomplizierter Verlauf bei großer Freundlichkeit. Absolut empfehlenswert!"</p>
+              <div class="google-badge">Google Rezension</div>
+            </div>
+            <!-- Review 6 -->
+            <div class="review-card glass-panel">
+              <div class="review-header">
+                <div class="reviewer-info">
+                  <div class="reviewer-avatar">K</div>
+                  <div>
+                    <h4>karlaa</h4>
+                    <div class="review-date">Vor 9 Monaten</div>
+                  </div>
+                </div>
+                <div class="review-rating">★★★★★</div>
+              </div>
+              <p class="review-text">"Einfache und schnelle Kommunikation. Auch bei großen Veranstaltungen immer verlässlich."</p>
+              <div class="google-badge">Google Rezension</div>
+            </div>
+
+            <!-- Duplicate for Infinite Loop -->
+            <!-- Review 1 Duplicate -->
+            <div class="review-card glass-panel">
+              <div class="review-header">
+                <div class="reviewer-info">
+                  <div class="reviewer-avatar">B</div>
+                  <div>
+                    <h4>Bunker Design</h4>
+                    <div class="review-date">Vor 6 Monaten</div>
+                  </div>
+                </div>
+                <div class="review-rating">★★★★★</div>
+              </div>
+              <p class="review-text">"Absolut zu empfehlen! Top Technik zu sehr guten Konditionen."</p>
+              <div class="google-badge">Google Rezension</div>
+            </div>
+            <!-- Review 2 Duplicate -->
+            <div class="review-card glass-panel">
+              <div class="review-header">
+                <div class="reviewer-info">
+                  <div class="reviewer-avatar">M</div>
+                  <div>
+                    <h4>Maurice Voigt</h4>
+                    <div class="review-date">Vor 1 Jahr</div>
+                  </div>
+                </div>
+                <div class="review-rating">★★★★★</div>
+              </div>
+              <p class="review-text">"Sehr kompetentes und nettes Personal und mega gute Preise! Immer wieder gerne."</p>
+              <div class="google-badge">Google Rezension</div>
+            </div>
+            <!-- Review 3 Duplicate -->
+            <div class="review-card glass-panel">
+              <div class="review-header">
+                <div class="reviewer-info">
+                  <div class="reviewer-avatar">B</div>
+                  <div>
+                    <h4>Benedikt</h4>
+                    <div class="review-date">Vor 8 Monaten</div>
+                  </div>
+                </div>
+                <div class="review-rating">★★★★★</div>
+              </div>
+              <p class="review-text">"Ich kann wirklich nur sagen dass ich Suuuper zufrieden bin. Kann man nur weiter empfehlen!"</p>
+              <div class="google-badge">Google Rezension</div>
+            </div>
+            <!-- Review 4 Duplicate -->
+            <div class="review-card glass-panel">
+              <div class="review-header">
+                <div class="reviewer-info">
+                  <div class="reviewer-avatar">L</div>
+                  <div>
+                    <h4>Lorraine Valerius</h4>
+                    <div class="review-date">Vor 4 Monaten</div>
+                  </div>
+                </div>
+                <div class="review-rating">★★★★★</div>
+              </div>
+              <p class="review-text">"Definitiv weiterzuempfehlen! Super netter, unkomplizierter Kontakt und einwandfreies Equipment."</p>
+              <div class="google-badge">Google Rezension</div>
+            </div>
+            <!-- Review 5 Duplicate -->
+            <div class="review-card glass-panel">
+              <div class="review-header">
+                <div class="reviewer-info">
+                  <div class="reviewer-avatar">M</div>
+                  <div>
+                    <h4>Mia Freudenreich</h4>
+                    <div class="review-date">Vor 11 Monaten</div>
+                  </div>
+                </div>
+                <div class="review-rating">★★★★★</div>
+              </div>
+              <p class="review-text">"Ein zuverlässiger und unkomplizierter Verlauf bei großer Freundlichkeit. Absolut empfehlenswert!"</p>
+              <div class="google-badge">Google Rezension</div>
+            </div>
+            <!-- Review 6 Duplicate -->
+            <div class="review-card glass-panel">
+              <div class="review-header">
+                <div class="reviewer-info">
+                  <div class="reviewer-avatar">K</div>
+                  <div>
+                    <h4>karlaa</h4>
+                    <div class="review-date">Vor 9 Monaten</div>
+                  </div>
+                </div>
+                <div class="review-rating">★★★★★</div>
+              </div>
+              <p class="review-text">"Einfache und schnelle Kommunikation. Auch bei großen Veranstaltungen immer verlässlich."</p>
+              <div class="google-badge">Google Rezension</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WEITERE DIENSTLEISTUNGEN SECTION -->
+    <section class="section-padding" style="background: rgba(4, 5, 8, 0.25);" id="dienstleistungen">
+      <div class="container">
+        <div class="section-header">
+          <h2>Unsere <span class="text-gradient-neon">Premium-Dienstleistungen</span></h2>
+          <p>Über die reine Vermietung hinaus begleiten wir Ihr Event ganzheitlich mit professionellem Service und maßgeschneiderten Konzepten.</p>
+        </div>
+        
+        <div class="services-grid">
+          <!-- Dienstleistung 1: DJ & Booking -->
+          <div class="service-card glass-card">
+            <div class="service-image-wrapper">
+              <img src="/Bilder/Dienstleistungen/dj_service.png" alt="DJ & Booking Service" class="service-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+              <div class="service-fallback-visual">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <circle cx="12" cy="12" r="10" />
+                  <circle cx="12" cy="12" r="3" />
+                  <path d="M12 2a10 10 0 0 0-10 10M12 22a10 10 0 0 0 10-10" stroke-dasharray="2,2"/>
+                </svg>
+              </div>
+              <div class="service-category">DJ & Booking</div>
+            </div>
+            <div class="service-body">
+              <h3>DJ & Booking Service</h3>
+              <p>Erstklassige Allround-DJs und erfahrene Club-DJs inklusive maßgeschneidertem Licht- & Soundpaket für Ihre Hochzeit, Firmenfeier oder Club-Event.</p>
+              <div class="service-footer">
+                <span class="service-feature-tag">Profi-DJs</span>
+                <a href="#kontakt" class="btn btn-secondary btn-sm service-cta">Jetzt anfragen</a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Dienstleistung 2: 3D-Visualisierung -->
+          <div class="service-card glass-card">
+            <div class="service-image-wrapper">
+              <img src="/Bilder/Dienstleistungen/event_planning.png" alt="3D Event-Visualisierung" class="service-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+              <div class="service-fallback-visual">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" />
+                  <polyline points="3.27 6.96 12 12.01 20.73 6.96" />
+                  <line x1="12" y1="22.08" x2="12" y2="12" />
+                </svg>
+              </div>
+              <div class="service-category">3D-Planung</div>
+            </div>
+            <div class="service-body">
+              <h3>3D Event-Visualisierung</h3>
+              <p>Sehen Sie Ihre Bühne und Lichtshow, bevor die erste Schraube gedreht ist. Professionelle CAD-Konstruktion und fotorealistische 3D-Vorprogrammierung.</p>
+              <div class="service-footer">
+                <span class="service-feature-tag">3D CAD</span>
+                <a href="#kontakt" class="btn btn-secondary btn-sm service-cta">Jetzt anfragen</a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Dienstleistung 3: Festinstallationen -->
+          <div class="service-card glass-card">
+            <div class="service-image-wrapper">
+              <img src="/Bilder/Dienstleistungen/festinstallation.png" alt="Festinstallationen & Systemintegration" class="service-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+              <div class="service-fallback-visual">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <rect x="2" y="2" width="20" height="8" rx="2" />
+                  <rect x="2" y="14" width="20" height="8" rx="2" />
+                  <line x1="6" y1="6" x2="6.01" y2="6" />
+                  <line x1="6" y1="18" x2="6.01" y2="18" />
+                </svg>
+              </div>
+              <div class="service-category">Integration</div>
+            </div>
+            <div class="service-body">
+              <h3>Festinstallation & Integration</h3>
+              <p>Maßgeschneiderte Beschallungskonzepte, Akustikoptimierungen und intelligente Lichtsteuerungen für Gastronomie, Lounges, Sporthallen und Gewerbebetriebe.</p>
+              <div class="service-footer">
+                <span class="service-feature-tag">Systemintegration</span>
+                <a href="#kontakt" class="btn btn-secondary btn-sm service-cta">Jetzt anfragen</a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Dienstleistung 4: Slush-Ice & Catering -->
+          <div class="service-card glass-card">
+            <div class="service-image-wrapper">
+              <img src="/Bilder/Dienstleistungen/slush_catering.png" alt="Slush-Ice & Event-Catering" class="service-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+              <div class="service-fallback-visual">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
+                </svg>
+              </div>
+              <div class="service-category">Catering</div>
+            </div>
+            <div class="service-body">
+              <h3>Slush-Ice & Event-Catering</h3>
+              <p>Unser Party-Highlight für Jung und Alt: Professionelle Doppel-Kammer Slush-Ice-Maschinen inklusive Sirup, Bechern und Strohhalmen für Ihr Event.</p>
+              <div class="service-footer">
+                <span class="service-feature-tag">Slush-Verleih</span>
+                <a href="#kontakt" class="btn btn-secondary btn-sm service-cta">Jetzt anfragen</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TEAM SECTION -->
+    <section class="section-padding" style="background: rgba(4, 5, 8, 0.1);" id="team">
+      <div class="container">
+        <div class="section-header">
+          <h2>Unsere <span class="text-gradient-cyan">Crew hinter den Reglern</span></h2>
+          <p>Die Gesichter hinter BWS Veranstaltungstechnik. Kompetent, zuverlässig und leidenschaftlich für Ihr perfektes Event.</p>
+        </div>
+        
+        <div class="team-grid">
+          <!-- Teammitglied 1: Marius -->
+          <div class="team-card glass-card">
+            <div class="team-image-container">
+              <div class="team-bg-glow"></div>
+              <img src="/Bilder/Team/Ausgeschnitten/Marius_ausgeschnitten.png" alt="Marius" class="team-cutout-img" onerror="this.src='https://via.placeholder.com/300x400?text=Marius';">
+            </div>
+            <div class="team-info">
+              <h3>Marius</h3>
+              <div class="team-role">Geschäftsführer & Technische Leitung</div>
+              <p>Marius plant Ihr Event von A bis Z und stellt sicher, dass Licht und Ton perfekt aufeinander abgestimmt sind.</p>
+            </div>
+          </div>
+          
+          <!-- Teammitglied 2: Paul -->
+          <div class="team-card glass-card">
+            <div class="team-image-container">
+              <div class="team-bg-glow"></div>
+              <img src="/Bilder/Team/Ausgeschnitten/Paul_ausgeschnitten.png" alt="Paul" class="team-cutout-img" onerror="this.src='https://via.placeholder.com/300x400?text=Paul';">
+            </div>
+            <div class="team-info">
+              <h3>Paul</h3>
+              <div class="team-role">Licht- & Systemtechnik</div>
+              <p>Paul kreiert atemberaubende Lichtshows im Simulator und erweckt sie live auf Ihrer Bühne zum Leben.</p>
+            </div>
+          </div>
+          
+          <!-- Teammitglied 3: Moritz -->
+          <div class="team-card glass-card">
+            <div class="team-image-container">
+              <div class="team-bg-glow"></div>
+              <img src="/Bilder/Team/Ausgeschnitten/Moritz_ausgeschnitten.png" alt="Moritz" class="team-cutout-img" onerror="this.src='https://via.placeholder.com/300x400?text=Moritz';">
+            </div>
+            <div class="team-info">
+              <h3>Moritz</h3>
+              <div class="team-role">Tontechnik & Sounddesign</div>
+              <p>Moritz ist unser Experte für druckvollen Sound und die perfekte akustische Ausmessung jeder Location.</p>
+            </div>
+          </div>
+          
+          <!-- Teammitglied 4: Elian -->
+          <div class="team-card glass-card">
+            <div class="team-image-container">
+              <div class="team-bg-glow"></div>
+              <img src="/Bilder/Team/Ausgeschnitten/Elian_ausgeschnitten.png" alt="Elian" class="team-cutout-img" onerror="this.src='https://via.placeholder.com/300x400?text=Elian';">
+            </div>
+            <div class="team-info">
+              <h3>Elian</h3>
+              <div class="team-role">Rigging & Bühnenbau</div>
+              <p>Elian sorgt dafür, dass alle Traversen, Scheinwerfer und Boxen sicher fliegen und bombenfest montiert sind.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- REQUEST INQUIRY FUNNEL / CONTACT FORM -->
+    <section class="section-padding funnel-section" id="kontakt">
+      <div class="container">
+        <div class="section-header">
+          <h2>Unverbindliches <span class="text-gradient-cyan">Mietangebot anfordern</span></h2>
+          <p>Ihre ausgewählten Mietgeräte sind im Formular hinterlegt. Senden Sie uns die Eventdetails für Ihr individuelles Angebot.</p>
+        </div>
+        
+        <div class="funnel-layout">
+          <!-- Summary of selected items (Left) -->
+          <div class="quote-overview-card glass-panel">
+            <h3 style="font-family: var(--font-title); margin-bottom: 24px; color: var(--primary-glow);">Mietübersicht</h3>
+            
+            <div class="overview-dates">
+              <div class="overview-date-box">
+                <div>Startdatum</div>
+                <div id="overview-start-val">-</div>
+              </div>
+              <div class="overview-date-box">
+                <div>Enddatum</div>
+                <div id="overview-end-val">-</div>
+              </div>
+            </div>
+            
+            <ul class="overview-list" id="funnel-overview-items">
+              <!-- Injected dynamically via JS -->
+            </ul>
+            
+            <div class="overview-pricing-total">
+              <div class="pricing-row">
+                <span>Berechnete Mietdauer</span>
+                <span id="funnel-display-duration">1 Tag</span>
+              </div>
+              <div class="pricing-row">
+                <span>Lieferung & Aufbau</span>
+                <span id="funnel-display-setup">Wird berechnet</span>
+              </div>
+              <div class="pricing-row total">
+                <span>Bruttobetrag</span>
+                <span id="funnel-display-total">0,00 €</span>
+              </div>
+              <p style="font-size: 0.72rem; color: var(--text-muted); text-align: right;">Inkl. 19% MwSt. (Mietpreisfaktor berücksichtigt)</p>
+            </div>
+          </div>
+          
+          <!-- Booking Contact Form (Right) -->
+          <form class="booking-form glass-panel" id="booking-request-form">
+            <h3 style="font-family: var(--font-title); margin-bottom: 10px;">Event & Kontaktdaten</h3>
+            <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 10px;">Füllen Sie diese Felder aus, um das unverbindliche Angebot per PDF-Entwurf zu erhalten.</p>
+            
+            <div class="form-row">
+              <div class="form-group">
+                <label for="client-name">Vor- & Nachname *</label>
+                <input type="text" id="client-name" required placeholder="z.B. Max Mustermann">
+              </div>
+              <div class="form-group">
+                <label for="client-company">Firma / Verein</label>
+                <input type="text" id="client-company" placeholder="z.B. Event GmbH (optional)">
+              </div>
+            </div>
+            
+            <div class="form-row">
+              <div class="form-group">
+                <label for="client-email">E-Mail-Adresse *</label>
+                <input type="email" id="client-email" required placeholder="name@beispiel.de">
+              </div>
+              <div class="form-group">
+                <label for="client-phone">Telefonnummer *</label>
+                <input type="tel" id="client-phone" required placeholder="z.B. 0170 1234567">
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <label for="event-location">Veranstaltungsort / PLZ *</label>
+              <input type="text" id="event-location" required placeholder="z.B. Stadthalle Düsseldorf, 40210">
+            </div>
+            
+            <div class="form-group">
+              <label for="event-comments">Besondere Wünsche oder Anmerkungen</label>
+              <textarea id="event-comments" rows="3" placeholder="z.B. Genaue Uhrzeiten für Lieferung, Vor-Ort-Betreuung gewünscht, etc."></textarea>
+            </div>
+            
+            <div class="form-group" style="margin-top: 10px;">
+              <label class="form-checkbox-label">
+                <input type="checkbox" id="check-personal" checked>
+                <span>Benötigen Sie technisches Personal zur Veranstaltungsbetreuung vor Ort?</span>
+              </label>
+            </div>
+            
+            <button type="submit" class="btn btn-primary" style="margin-top: 16px; font-weight: 800;">Jetzt unverbindliches Angebot anfordern</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- WARENKORB DRAWER (SLIDING CART DRAWER) -->
+  <div class="cart-drawer-overlay" id="cart-drawer-overlay"></div>
+  <div class="cart-drawer" id="cart-drawer">
+    <div class="cart-header">
+      <h3>Ihr Miet-Warenkorb</h3>
+      <button class="cart-close-btn" id="cart-close-btn" aria-label="Warenkorb schließen">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+    
+    <!-- Cart Items Scroll Area -->
+    <div class="cart-items-wrapper" id="cart-items-container">
+      <!-- Injected dynamically via JS or shows empty state -->
+    </div>
+    
+    <!-- Cart Summary Footer -->
+    <div class="cart-summary-footer" id="cart-drawer-footer">
+      <div class="service-toggle-wrapper">
+        <label class="service-toggle">
+          <div class="service-toggle-text">
+            Lieferung & Aufbau gewünscht?
+            <span>Inkl. professionellem Aufbauteam</span>
+          </div>
+          <input type="checkbox" id="cart-service-toggle">
+          <div class="switch-indicator"></div>
+        </label>
+      </div>
+      
+      <div class="cart-summary-row">
+        <span>Zwischensumme (Mietdauer berechnet)</span>
+        <span id="cart-subtotal">0,00 €</span>
+      </div>
+      <div class="cart-summary-row" id="setup-row" style="display: none;">
+        <span>Lieferung, Auf- & Abbau</span>
+        <span id="cart-setup-cost">0,00 €</span>
+      </div>
+      <div class="cart-summary-row accent">
+        <span>Mietpreisfaktor (Minderungs-Rabatt)</span>
+        <span id="cart-discount-factor">-0%</span>
+      </div>
+      <div class="cart-summary-row">
+        <span>Darin enthaltene MwSt. (19%)</span>
+        <span id="cart-tax">0,00 €</span>
+      </div>
+      <div class="cart-summary-row total-gross">
+        <span>Bruttosumme</span>
+        <span id="cart-total-gross">0,00 €</span>
+      </div>
+      
+      <button class="btn btn-primary" id="btn-cart-checkout" style="width: 100%; font-weight: 800;">Zur Anfrage kasse gehen</button>
+    </div>
+  </div>
+
+  <!-- BOOKING SUCCESS / ESTIMATE OVERLAY MODAL -->
+  <div class="success-overlay" id="booking-success-modal">
+    <div class="success-card glass-panel">
+      <div class="success-icon">✓</div>
+      <h2>Anfrage erfolgreich eingegangen!</h2>
+      <p>Vielen Dank für Ihre Mietanfrage bei BWS Veranstaltungstechnik. Wir haben Ihren detaillierten Kostenvoranschlag generiert. Nachfolgend finden Sie Ihren Buchungsentwurf:</p>
+      
+      <!-- Mock Invoice/Estimate Details -->
+      <div class="mock-invoice">
+        <div class="invoice-header">
+          <div class="invoice-header-title">BWS VERANSTALTUNGSTECHNIK</div>
+          <div class="invoice-header-number" id="success-invoice-num">ANGEBOT #BWS-48293</div>
+        </div>
+        <div class="invoice-row">
+          <span>Kunde:</span>
+          <strong id="success-client-name">Max Mustermann</strong>
+        </div>
+        <div class="invoice-row">
+          <span>Event-Ort:</span>
+          <span id="success-event-loc">Stadthalle Düsseldorf</span>
+        </div>
+        <div class="invoice-row">
+          <span>Mietzeitraum:</span>
+          <span id="success-dates">19.05.2026 - 21.05.2026</span>
+        </div>
+        <div class="invoice-row">
+          <span>Technisches Personal:</span>
+          <span id="success-personal-status">Ja, vor Ort</span>
+        </div>
+        <div class="invoice-row divider">
+          <span>Gesamtsumme (Brutto)</span>
+          <span id="success-gross-total">0,00 €</span>
+        </div>
+      </div>
+      
+      <div style="display: flex; gap: 16px; justify-content: center;">
+        <button class="btn btn-primary" id="btn-success-close">Zurück zur Startseite</button>
+        <button class="btn btn-secondary" onclick="window.print()">Angebot drucken / PDF</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <a href="#" class="logo" style="margin-bottom: 20px;">
+          <img class="logo-img" src="/Bilder/Logo/BWS Logo.jpeg" alt="BWS Logo" onerror="this.style.display='none';">
+          <div class="logo-text">BWS <span>Veranstaltungstechnik</span></div>
+        </a>
+        <p>Ihr Premium-Partner für High-End Veranstaltungstechnik. Wir inszenieren Bühnen, beschallen Events und sorgen für erstklassige Erlebnisse.</p>
+      </div>
+      
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <ul class="footer-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#kalkulator">Event-Konfigurator</a></li>
+          <li><a href="#simulator">Lichtshow-Simulator</a></li>
+          <li><a href="#katalog">Equipment Mietpark</a></li>
+          <li><a href="#bewertungen">Bewertungen</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-col">
+        <h4>Mietkategorien</h4>
+        <ul class="footer-links">
+          <li><a href="#katalog">Lichttechnik</a></li>
+          <li><a href="#katalog">Tontechnik & PAs</a></li>
+          <li><a href="#katalog">Bühnenbau & Rigging</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-col">
+        <h4>Kontakt & Service</h4>
+        <p style="margin-bottom: 12px;">
+          BWS Veranstaltungstechnik<br>
+          Margarethenstraße 3<br>
+          54524 Klausen
+        </p>
+        <p style="margin-bottom: 8px;">📧 info@bwsverleih.de</p>
+      </div>
+    </div>
+    
+    <div class="container footer-bottom">
+      <p>&copy; 2026 BWS Veranstaltungstechnik. Alle Rechte vorbehalten.</p>
+      <div class="social-links">
+        <a href="#" class="social-link" aria-label="Instagram">IG</a>
+        <a href="#" class="social-link" aria-label="Facebook">FB</a>
+        <a href="#" class="social-link" aria-label="LinkedIn">LN</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- CORE APP SCRIPTS -->
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
